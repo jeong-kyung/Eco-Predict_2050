@@ -1,14 +1,9 @@
 # Eco-Predict_2050
-Wildfire damage analysis and carbon recovery simulation for Pine vs. Eucalyptus forests using Python & QGIS.
+## Wildfire damage analysis and carbon recovery simulation for Pine vs. Eucalyptus forests using Python & QGIS.
+## Biological Insight: 유칼립투스 특유의 "휘발성 유기화합물(Terpenes)"에 의한 과포화 연소 현상과, 한국 소나무의 낮은 맹아 갱신(Sprouting) 능력에 따른 회복 리스크 비교 분석 포함.
 
-Biological Insight: 유칼립투스 특유의 "휘발성 유기화합물(Terpenes)"에 의한 과포화 연소 현상과, 한국 소나무의 낮은 맹아 갱신(Sprouting) 능력에 따른 회복 리스크 비교 분석 포함.
 
-
-🌳 Eco-Predict_2050
-Comparative Analysis of Wildfire Impact and Carbon Recovery Resilience: Korea Pine vs. Australia Eucalyptus
-(수종별 생명공학적 특성을 반영한 산불 피해 및 2050 탄소 중립 리스크 시뮬레이션)
-
-🧬 핵심 분석 및 생명공학적 해석 (Key Insight)
+## 🧬 핵심 분석 및 생명공학적 해석 (Key Insight)
 본 프로젝트는 단순히 산불 피해 면적을 집계하는 것을 넘어, 수종별 **생리적 회복 탄력성(Resilience)**의 차이가 2050 탄소 중립 달성에 미치는 영향을 정량적으로 입증하였습니다.
 
 Biological Insight (Australia): 유칼립투스림은 **피해 비율 145.45%**라는 중첩 피해를 기록했습니다. 이는 휘발성 유기화합물(Terpenes)에 의한 화력 증폭 및 고온 연소의 결과이나, 강력한 에피코믹 싹(Epicormic buds) 발달로 인해 약 18.3년 내에 탄소 흡수원 기능을 복구할 수 있음을 확인했습니다.
