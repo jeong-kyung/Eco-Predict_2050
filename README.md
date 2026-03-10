@@ -1,2 +1,2 @@
 # Eco-Predict_2050
-수종별 산불 피해 및 탄소 흡수원 복원 예측 시뮬레이션
+Wildfire damage analysis and carbon recovery simulation for Pine vs. Eucalyptus forests using Python & QGIS.
