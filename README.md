@@ -10,23 +10,23 @@
 
 * **Biological Insight (Korea)**: 한국 소나무림은 피해율이 8.72%로 낮았으나, 유칼립투스 대비 맹아 갱신(Sprouting) 능력이 낮아 완전 복구에 30.0년이 소요됩니다. 이는 2050년 데드라인(남은 기간 24년)을 초과하는 수치로, 생물학적으로 더 치명적인 탄소 리스크를 안고 있음을 시사합니다.
 
-🛠 Tech Stack
-Tools: QGIS (v3.x), Google Colab
+## 🛠 Tech Stack
+* **Tools**: QGIS (v3.x), Google Colab
 
-Language: Python 3.x
+* **Language**: Python 3.x
 
-Libraries: Pandas, Matplotlib, Seaborn, NumPy
+* **Libraries**: Pandas, Matplotlib, Seaborn, NumPy
 
-📊 핵심 데이터 분석 결과 (Data Analysis)
-1. 수종별 탄소 손실량 비교 (Carbon Loss)
+## 📊 핵심 데이터 분석 결과 (Data Analysis)
+**1. 수종별 탄소 손실량 비교 (Carbon Loss)**
 산불로 인해 대기 중으로 방출된 총 탄소량을 산출한 결과, 호주 유칼립투스림이 약 6,091만 톤으로 한국 소나무림(89만 톤) 대비 압도적인 배출량을 보였습니다.
 
-2. 2050 탄소 중립 회복 시뮬레이션 (Recovery Prediction)
+**2. 2050 탄소 중립 회복 시뮬레이션 (Recovery Prediction)**
 각 수종의 생장률을 기반으로 분석한 결과, 한국 소나무는 현재의 낮은 회복 탄력성으로 인해 2050년 목표 달성 선(그린 가이드라인)을 초과하는 것으로 나타났습니다.
 
-🚀 기술적 워크플로우 (Technical Workflow)
-이기종 식생 데이터 통합 및 전처리: 한국 임상도(Vector)와 호주 SVTM(Raster) 데이터를 EPSG:3857 좌표계로 통일하고 속성 정보를 복구하였습니다.
+## 🚀 기술적 워크플로우 (Technical Workflow)
+**1. 이기종 식생 데이터 통합 및 전처리**: 한국 임상도(Vector)와 호주 SVTM(Raster) 데이터를 EPSG:3857 좌표계로 통일하고 속성 정보를 복구하였습니다.
 
-산불 영향권 모델링: FIRMS 산불 데이터를 기반으로 500m 반경의 버퍼를 생성하여 공간 교차 분석을 수행하였습니다.
+**산불 영향권 모델링**: FIRMS 산불 데이터를 기반으로 500m 반경의 버퍼를 생성하여 공간 교차 분석을 수행하였습니다.
 
-Troubleshooting: 래스터 재투영 시 발생하는 속성 유실 문제를 폴리곤화(Vectorization) 및 DBF 결합 공법으로 해결하여 데이터 무결성을 확보하였습니다.
+**Troubleshooting**: 래스터 재투영 시 발생하는 속성 유실 문제를 폴리곤화(Vectorization) 및 DBF 결합 공법으로 해결하여 데이터 무결성을 확보하였습니다.
